@@ -73,6 +73,12 @@ if __name__ == "__main__":
         elif 'open google' in query:
             webbrowser.open("google.com")
 
+        elif 'open whatsapp' in query:
+            webbrowser.open("whatsapp.com")
+
+        elif 'python documentation' in query:
+            webbrowser.open("pyhon documentation")    
+
         elif 'open stackoverflow' in query:
             webbrowser.open("stackoverflow.com")
 
